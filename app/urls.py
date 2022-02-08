@@ -11,5 +11,6 @@ urlpatterns = [
     re_path(r'^topictable$', views.topictable,name='topictable'),
     re_path(r'^completedtasktable$', views.completedtasktable,name='completedtasktable'),
     re_path(r'^trainingprofile$', views.trainingprofile,name='trainingprofile'),
+    re_path(r'^traineestable$', views.traineestable,name='traineestable'),
     
 ]

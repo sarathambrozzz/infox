@@ -20,6 +20,8 @@ def topictable(request):
 def completedtasktable(request):
     return render(request,'completedtasktable.html')
 def trainingprofile(request):
-    return render(request,'trainingprofile.html') 
+    return render(request,'trainingprofile.html')
+def traineestable(request):
+    return render(request,'traineestable.html')     
                    
 
